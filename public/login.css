@@ -1,0 +1,113 @@
+body {
+    background-color: #fdfdfd;
+  }
+  
+  .signup-box {
+    width: 360px;
+    height: 570px;
+    margin: auto;
+    background-color: rgb(238, 255, 254);
+    border-radius: 10%;
+    margin-bottom: 2%;
+    box-shadow: 20px 10px 50px 10px rgb(143, 242, 255) inset;
+  }
+  
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 5%;
+    background-color:rgb(238, 255, 254);
+    margin-bottom: 2%;
+    box-shadow: 20px 10px 50px 10px rgb(143, 242, 255) inset;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+  }
+  input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:rgb(25, 175, 235);
+    color: white;
+    font-size: 18px;
+    margin-top: 20%;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    margin-top: 38%;
+  }
+  .para-2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 4%;
+    font-weight: bolder;
+  }
+  .para-2 a {
+    color: #000000;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+  .para-2 a:hover{
+      color:rgb(25, 175, 235);
+      text-decoration: overline;
+  }
+  .logo{
+    font-size: 2.5rem;
+    margin-left:7%;
+    color: rgb(0, 0, 255);
+}
+i{
+    margin-right: 1%;
+}
+.navbar{
+    text-align: right;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.navbar a{
+    padding-right:1rem ;
+    padding-left: 1rem;
+    color: blue;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: rgb(245, 141, 100);
+    text-decoration: underline;
+    font-size: 1.5rem
+  }
+  
+  .head{
+    background-color: #D4F6FF;
+    height: 6rem;
+}

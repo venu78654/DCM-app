@@ -1,0 +1,53 @@
+const appointment = (req,res) => {
+    res.send(`
+        <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="/style.css">
+        </head>
+        <body>
+        <header class="head">
+
+        
+            <a herf="#" class="logo"><i class="fas fa-tooth fa-fade" style="color: #0000ff;"></i>Dental Clinic</a>
+            <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="/services">Our Services</a>
+            <a href="/appointment">Make An Appointment</a>
+            <a href="/contact">Contact Us</a>
+            <a href="/login" id="login">Login</a>
+            </nav>
+        </header>
+        <h1>Make An Appointment</h1>
+    
+        <form class="appoint" action="/makeappoint" method="POST">
+         <label class="applab">Name: </label>
+         <br>
+         <input type="name" name="fname" placeholder="First Name" required/>
+         <br>
+         <input type="name" name="lname" placeholder="Last name" required/>
+         <br>
+         <label class="applab">Preferred Appointment Date:</label>
+         <br>
+         <input type="date" name="date" required/>
+         <br>
+         <label class="applab">Eamil:</label>
+         <br>
+         <input type="email" name="email" placeholder="example@example.com" required/>
+         <br>
+         <label class="applab">Phone no:</label>
+         <br>
+         <input type="number" name="phoneno" placeholder="Phone no" required/>
+         <br>
+         <label class="applab">Reason for visiting:</label>
+         <br>
+         <textarea class="textarea" name="msg"></textarea>         <br>
+         <input type="submit" value="submit" id="appsub"/>
+        </form>
+    
+        </body>
+    `)
+
+};
+
+
+module.exports = appointment;

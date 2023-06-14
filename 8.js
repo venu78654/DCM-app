@@ -1,0 +1,39 @@
+const eight = (req,res) => {
+    res.send(`
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/images/services/details/details.css">
+    </head>    
+    <body>
+        <header class="head">
+  
+        
+            <a herf="#" class="logo"><i class="fas fa-tooth fa-fade" style="color: #0000ff;"></i>Dental Clinic</a>
+            <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="/services">Our Services</a>
+            <a href="/appointment">Make An Appointment</a>
+            <a href="/contact">Contact Us</a>
+            <a href="/login" id="login">Login</a>
+            </nav>
+        </header>
+        <section>
+    <h1>General and preventive care</h1>
+    <h2>The modern pace of our urban life hits hard on our schedule.
+         So it may easily bring undesirable consequences to the overall state of your oral health.
+    </h2>
+    <p>Thus it is essential to take care of the oral hygiene. Of course, it must be done on par with doing regular general and preventive checkups with a dentist.
+       <br><br>          
+        Such regular teeth and gums examinations will ensure that your health is in no danger. It will confirm that every dental concern or issue is detected and fixed by our doctors at once.
+        <br><br>
+        We have a long list of regular customers with that in mind, who visit our clinic on a quarterly basis…
+    </p>
+  </section>
+    <img src="/images/services/details/img/9.jpg"> 
+    
+    `)
+};
+
+
+module.exports = eight;

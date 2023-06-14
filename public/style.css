@@ -1,0 +1,248 @@
+.logo{
+    font-size: 2.5rem;
+    margin-left:7%;
+    color: rgb(0, 0, 255);
+}
+i{
+    margin-right: 1%;
+}
+.navbar{
+    text-align: right;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.navbar a{
+    padding-right:1rem ;
+    padding-left: 1rem;
+    color: blue;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: rgb(245, 141, 100);
+    text-decoration: underline;
+    font-size: 1.4rem
+}
+.head{    background-color: #d4f6ff;
+    height: 6rem;
+    
+    
+}
+#login{
+    color:blue;
+    border: solid skyblue 3px;
+    border-radius: 12%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-right: 3%;
+}
+#login:hover{
+    color:rgb(0, 0, 0);
+    background-color: #e6faff;
+}
+
+.topimg{
+    width: 100%;
+    margin-top: 2%;
+    height: 32rem;
+}
+.sen{
+    position: absolute;
+    top: 10rem;
+    left: 1.6rem;
+    font-size: 3.4rem;
+    background-color:transparent;
+    color: rgb(0, 183, 255);
+    width:50%;
+    border-radius: 12px;
+    text-align: center;
+}
+.topcon
+{
+    color:  rgb(25, 175, 235);
+    font-size: 3rem;
+    position: absolute;
+    top: 55%;
+    left:10%;
+}
+.topcon1{
+    color: black;
+    position: absolute;
+    top: 79%;
+    left:15%;
+    font-size: 2rem;
+}
+.sec1{
+    margin-bottom: 85px;
+}
+
+.neximg{
+    left: 0;
+    width:50%;
+}
+.nextext{
+    width:48%;
+    position: absolute;
+    right: 0;
+    top: 110%;
+    font-size: 1.3rem;
+}
+.nextext p{
+    color: rgb(129, 120, 120);
+}
+.nextext h1,h3{
+    color: rgb(18, 176, 238);
+}
+
+
+
+/*services style*/
+
+
+h1{
+    color: rgb(25, 175, 235);
+    text-align: center;
+    font-size: 4rem;
+}
+.serv{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    text-decoration: none;
+    
+}
+.box{
+    margin: 20px;
+    box-shadow: 2px 2px 5px;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(0, 0, 218);
+    color: white;
+    width: 110px;
+    height: 30px;
+    border-radius: 25px;
+    border: solid black 1px;
+    margin-bottom: 25px;
+}
+.boxtext{
+    font-size: 1.5rem;
+    color: rgb(25, 175, 235);
+    
+}
+.btn:hover{
+    background-color: rgb(1, 149, 248);
+    font-size: 15px;
+}
+.allserv{
+    
+    width:300px;
+    border: solid black 3px;
+    height: 50px;
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px;
+    margin-left: 500px;
+    color: white;
+    background-color: skyblue;
+    border-radius: 25px;
+}
+.nexserv{
+    margin-top: 10%;
+}
+
+
+/*contact style*/
+
+.conh1{
+    position: absolute;
+    left:11%;
+    top: 28%;
+    font-size: 4.5rem;
+}
+
+.foot{
+    background-color: rgb(2, 217, 245);
+    width: 100%;
+    height: 300px;
+}
+.footh1{
+    position: absolute;
+    left: 5%;
+    color: crimson;
+}
+.contact{
+    position:absolute;
+    left:50%;
+    
+
+}
+  
+
+
+/*appointment style*/
+.appoint{
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 25%;
+    width: 50%;
+    height: 120%;
+    box-shadow: 40px 20px 70px 30px rgb(143, 242, 255) inset;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.appoint input{
+    width: 70%;
+    height: 40px;
+    margin: 3%;
+    border: solid black 2px;
+    border-radius: 10px;
+    text-align: center ;
+    margin-left: 15%;
+}
+.appoint .applab{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8%;
+}
+.appoint .textarea{
+    width: 70%;
+    margin-left: 15%;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+#appsub{
+    width: 15%;
+    margin-left: 40%;
+    background-color: rgb(25, 175, 235);
+    color: white;
+    font-size: 1.5rem;
+}
+#appsub:hover{
+    text-decoration: underline;
+}
+
+
+  
+
+
+/* style.css */
+
+#goToTopButtton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    font-size: 4rem;
+    
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  
+  #goToTopButtton.show {
+    display: block;
+  }
+  
+  
