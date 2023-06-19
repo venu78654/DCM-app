@@ -37,40 +37,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 console.log(__dirname)
 
-const nav = [
-  require('./1.js'),
-  require('./2.js'),
-  require('./3.js'),
-  require('./4.js'),
-  require('./5.js'),
-  require('./6.js'),
-  require('./7.js'),
-  require('./8.js'),
-  require('./services'),
-  require('./contact'),
-  require('./appointment'),
-  require('./login'),
-  require("./signup"),
-  require("./profile.js")
-];
 
-
-
-
-app.get('/details/1', nav[0])
-app.get('/details/2', nav[1])
-app.get('/details/3', nav[2])
-app.get('/details/4', nav[3])
-app.get('/details/5', nav[4])
-app.get('/details/6', nav[5])
-app.get('/details/7', nav[6])
-app.get('/details/8', nav[7])
-app.get('/signup', nav[12])
-app.get('/services', nav[8])
-app.get('/contact', nav[9])
-app.get('/appointment', nav[10])
-app.get('/login', nav[11])
-app.get('/profile',nav[13])
 
 app.get('/', (req, res) => {
   const indexPath = path.join(__dirname, 'index.html');
